@@ -1,5 +1,6 @@
 {
-	"name": "JILeXanDR/SkypeWebAPI",
+	"name": "jilexandr/skypewebapi",
+	"type": "library",
 	"authors": [
 		{
 			"name": "Alexandr",
@@ -7,11 +8,17 @@
 		}
 	],
 	"require": {
-		"guzzlehttp/guzzle": "~6.0"
+		"guzzlehttp/guzzle": "~6.0",
+		"symfony/var-dumper": "*"
 	},
 	"autoload": {
-		"psr-0": {
-			"Weaverryan\\DangerZone": "src"
+		"psr-4": {
+			"WebSkype\\": "src/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev": "dev"
 		}
 	}
 }

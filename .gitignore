@@ -1,2 +1,4 @@
 /.idea
 /vendor/
+/index.php
+/server.php
